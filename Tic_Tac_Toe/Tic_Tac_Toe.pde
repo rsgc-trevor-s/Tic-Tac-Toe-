@@ -26,34 +26,75 @@ void setup() {
   rect(550, 300, 200, 200);
   rect(550, 100, 200, 200);
   rect(550, 500, 200, 200);
- 
-
 }
 
 
 
-  void draw() {
+void draw() {
 
-    if (keyPressed&&mousePressed&&key== 'a') {
-   
-      if (mouseX >= 150 && mouseX <= 350 && mouseY >=100 && mouseY<=300) {
-        one = true;
-         image(image, 219, 166);
-      }
+  if (keyPressed&&mousePressed&&key== 'a') {
+
+    if (mouseX >= 150 && mouseX <= 350 && mouseY >=100 && mouseY<=300) {
+      one = true;
+      image(image, 219, 166);
     }
-    if (keyPressed&&mousePressed&&key== 'a') {
-   
-      if (mouseX >= 150 && mouseX <= 350 && mouseY >=300 && mouseY<=500) {
-        two = true;
-         image(image, 219, 366);
-      }
-    }
-    
-     if (keyPressed&&mousePressed&&key== 'a') {
-    if (mouseX >= 150 && mouseX <= 350 && mouseY >=500 && mouseY<=800) {
-        three = true;
-         image(image, 219, 566);
-      }
-    
-     }
   }
+  if (keyPressed&&mousePressed&&key== 'a') {
+
+    if (mouseX >= 150 && mouseX <= 350 && mouseY >=300 && mouseY<=500) {
+      two = true;
+      image(image, 219, 366);
+    }
+  }
+
+  if (keyPressed&&mousePressed&&key== 'a') {
+    if (mouseX >= 150 && mouseX <= 350 && mouseY >=500 && mouseY<=800) {
+      three = true;
+      image(image, 219, 566);
+    }
+  }
+
+  if (keyPressed&&mousePressed&&key== 'a') {
+    if (mouseX >= 350 && mouseX <= 550 && mouseY >=100 && mouseY<=300) {
+      four= true;
+      image(image, 419, 166);
+    }
+  }
+
+  if (keyPressed&&mousePressed&&key== 'a') {
+    if (mouseX >= 350 && mouseX <= 550 && mouseY >=300 && mouseY<=500) {
+      five= true;
+      image(image, 419, 366);
+    }
+  }
+
+  if (keyPressed&&mousePressed&&key== 'a') {
+    if (mouseX >= 350 && mouseX <= 550 && mouseY >500 && mouseY<=800) {
+      six= true;
+      image(image, 419, 566);
+    }
+  }
+  
+    if (keyPressed&&mousePressed&&key== 'a') {
+    if (mouseX >= 550 && mouseX <= 750 && mouseY >=100 && mouseY<=300) {
+      seven= true;
+      image(image, 619, 166);
+    }
+  }
+
+  
+  if (keyPressed&&mousePressed&&key== 'a') {
+
+    if (mouseX >= 550 && mouseX <= 750 && mouseY >=300 && mouseY<=500) {
+      eight = true;
+      image(image, 619, 366);
+    }
+  }
+  if (keyPressed&&mousePressed&&key== 'a') {
+
+    if (mouseX >= 550 && mouseX <= 750 && mouseY >=500 && mouseY<=800) {
+      nine = true;
+      image(image, 619, 566);
+    }
+  }
+}
