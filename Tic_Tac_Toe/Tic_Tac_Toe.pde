@@ -8,6 +8,15 @@ boolean seven = false;
 boolean eight = false; 
 boolean nine = false; 
 
+boolean oneO=false;
+boolean twoO=false;
+boolean threeO=false; 
+boolean fourO= false; 
+boolean fiveO= false; 
+boolean sixO= false; 
+boolean sevenO = false; 
+boolean eightO = false; 
+boolean nineO = false; 
 
 
 PImage image;
@@ -31,6 +40,29 @@ void setup() {
 
 
 void draw() {
+
+  if (five && one && nine == true) {
+    text("Game Over", 400, 400);
+  }
+  if (five && three && seven == true) {
+    text("Game Over", 400, 400);
+  }
+  if (five && four && six == true) {
+    text("Game Over", 400, 400);
+  }
+  if (one && two && three == true) {
+    text("Game Over", 400, 400);
+  }
+  if (one && four && seven == true) {
+    text("Game Over", 400, 400);
+  }
+  if (seven && eight && nine == true) {
+    text("Game Over", 400, 400);
+  }
+  if (nine && six && three == true) {
+    text("Game Over", 400, 400);
+  }
+
 
   if (keyPressed&&mousePressed&&key== 'a') {
 
@@ -74,15 +106,15 @@ void draw() {
       image(image, 419, 566);
     }
   }
-  
-    if (keyPressed&&mousePressed&&key== 'a') {
+
+  if (keyPressed&&mousePressed&&key== 'a') {
     if (mouseX >= 550 && mouseX <= 750 && mouseY >=100 && mouseY<=300) {
       seven= true;
       image(image, 619, 166);
     }
   }
 
-  
+
   if (keyPressed&&mousePressed&&key== 'a') {
 
     if (mouseX >= 550 && mouseX <= 750 && mouseY >=300 && mouseY<=500) {
