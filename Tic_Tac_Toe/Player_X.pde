@@ -163,4 +163,31 @@ void draw() {
     }
   }
   
+  
+  if (fiveO && oneO && nineO == true) {
+    text("Game Over", 400, 400);
+  }
+  if (fiveO && threeO && sevenO == true) {
+    text("Game Over", 400, 400);
+  }
+  if (fiveO && fourO && sixO == true) {
+    text("Game Over", 400, 400);
+  }
+  if (oneO && twoO && threeO == true) {
+    text("Game Over", 400, 400);
+  }
+  if (oneO && fourO && sevenO == true) {
+    text("Game Over", 400, 400);
+  }
+  if (sevenO && eightO && nineO == true) {
+    text("Game Over", 400, 400);
+  }
+  if (nineO && sixO && threeO == true) {
+    text("Game Over", 400, 400);
+  }
+ if (twoO && fiveO && eightO == true) {
+    text("Game Over", 400, 400);
+  }
+
+  
 }
