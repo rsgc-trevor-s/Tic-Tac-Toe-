@@ -189,5 +189,8 @@ void draw() {
     text("Game Over", 400, 400);
   }
 
-  
-}
+  // if(one && two && three && four && five && six && seven && eight && nine 7){
+// ll(255,0,0);
+  //   rect(600,300,600,600); 
+  // }
+  }

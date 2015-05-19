@@ -18,6 +18,16 @@ boolean sevenO = false;
 boolean eightO = false; 
 boolean nineO = false; 
 
+int squareOne=0;
+int squareTwo=0;
+int squareThree=0;
+int squareFour=0;
+int squareFive=0;
+int squareSix=0;
+int squareSeven=0;
+int squareEight=0;
+int squareNine=0;
+
 
 PImage image;
 PImage imageO;
