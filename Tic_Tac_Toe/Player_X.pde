@@ -1,29 +1,5 @@
 void draw() {
 
-  if (five && one && nine == true) {
-    text("Game Over", 400, 400);
-  }
-  if (five && three && seven == true) {
-    text("Game Over", 400, 400);
-  }
-  if (five && four && six == true) {
-    text("Game Over", 400, 400);
-  }
-  if (one && two && three == true) {
-    text("Game Over", 400, 400);
-  }
-  if (one && four && seven == true) {
-    text("Game Over", 400, 400);
-  }
-  if (seven && eight && nine == true) {
-    text("Game Over", 400, 400);
-  }
-  if (nine && six && three == true) {
-    text("Game Over", 400, 400);
-  }
- if (two && five && eight == true) {
-    text("Game Over", 400, 400);
-  }
 
   if (keyPressed&&mousePressed&&key== 'a') {
 
@@ -32,6 +8,7 @@ void draw() {
       image(image, 219, 166);
     }
   }
+
   if (keyPressed&&mousePressed&&key== 'a') {
 
     if (mouseX >= 150 && mouseX <= 350 && mouseY >=300 && mouseY<=500) {
@@ -164,31 +141,95 @@ void draw() {
   }
   
   
-  if (fiveO && oneO && nineO == true) {
+  
+  //Player X
+  if (five && one && nine == true) {
+    fill(255,0,0);
+    textSize(40);
     text("Game Over", 400, 400);
   }
-  if (fiveO && threeO && sevenO == true) {
+  if (five && three && seven == true) {
+     fill(255,0,0);
+    textSize(40);
+    text("Game Over", 400, 400);
+    
+  }
+  if (five && four && six == true) {
+     fill(255,0,0);
+    textSize(40);
     text("Game Over", 400, 400);
   }
-  if (fiveO && fourO && sixO == true) {
+  if (one && two && three == true) {
+     fill(255,0,0);
+    textSize(40);
     text("Game Over", 400, 400);
   }
-  if (oneO && twoO && threeO == true) {
+  if (one && four && seven == true) {
+     fill(255,0,0);
+    textSize(40);
     text("Game Over", 400, 400);
   }
-  if (oneO && fourO && sevenO == true) {
+  if (seven && eight && nine == true) {
+     fill(255,0,0);
+    textSize(40);
     text("Game Over", 400, 400);
   }
-  if (sevenO && eightO && nineO == true) {
+  if (nine && six && three == true) {
+     fill(255,0,0);
+    textSize(40);
     text("Game Over", 400, 400);
   }
-  if (nineO && sixO && threeO == true) {
-    text("Game Over", 400, 400);
-  }
- if (twoO && fiveO && eightO == true) {
+ if (two && five && eight == true) {
+    fill(255,0,0);
+    textSize(40);
     text("Game Over", 400, 400);
   }
 
+//Player O
+
+if (fiveO && oneO && nineO == true) {
+   fill(255,0,0);
+    textSize(40);
+    text("Game Over", 400, 400);
+  }
+  if (fiveO && threeO && sevenO == true) {
+     fill(255,0,0);
+    textSize(40);
+    text("Game Over", 400, 400);
+  }
+  if (fiveO && fourO && sixO == true) {
+     fill(255,0,0);
+    textSize(40);
+    text("Game Over", 400, 400);
+  }
+  if (oneO && twoO && threeO == true) {
+     fill(255,0,0);
+    textSize(40);
+    text("Game Over", 400, 400);
+  }
+  if (oneO && fourO && sevenO == true) {
+     fill(255,0,0);
+    textSize(40);
+    text("Game Over", 400, 400);
+  }
+  if (sevenO && eightO && nineO == true) {
+     fill(255,0,0);
+    textSize(40);
+    text("Game Over", 400, 400);
+  }
+  if (nineO && sixO && threeO == true) {
+     fill(255,0,0);
+    textSize(40);
+    text("Game Over", 400, 400);
+  }
+ if (twoO && fiveO && eightO == true) {
+    fill(255,0,0);
+    textSize(40);
+    text("Game Over", 400, 400);
+  }
+
+  
+  
   // if(one && two && three && four && five && six && seven && eight && nine 7){
 // ll(255,0,0);
   //   rect(600,300,600,600); 
