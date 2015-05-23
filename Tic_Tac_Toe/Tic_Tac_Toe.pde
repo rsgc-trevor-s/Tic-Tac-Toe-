@@ -1,12 +1,17 @@
-boolean one=false;
-boolean two=false;
-boolean three=false; 
-boolean four= false; 
-boolean five= false; 
-boolean six = false; 
-boolean seven = false; 
-boolean eight = false; 
-boolean nine = false; 
+//Author: Sean Trevor 
+//Title: Tic-Tac-Toe
+//Last revision:
+
+
+boolean one=false; //Create a variable for player X's Square 1  
+boolean two=false; //Create a variable for player X's Square 2 
+boolean three=false;  //Create a variable for player X's Square 3 
+boolean four= false;  //Create a variable for player X's Square 4  
+boolean five= false; //Create a variable for player X's Square 5  
+boolean six = false; //Create a variable for player X's Square 6  
+boolean seven = false; //Create a variable for player X's Square 7  
+boolean eight = false;//Create a variable for player X's Square 8  
+boolean nine = false; //Create a variable for player X's Square 9  
 
 boolean oneO=false;
 boolean twoO=false;
@@ -18,15 +23,15 @@ boolean sevenO = false;
 boolean eightO = false; 
 boolean nineO = false; 
 
-int squareOne=0;
-int squareTwo=0;
-int squareThree=0;
-int squareFour=0;
-int squareFive=0;
-int squareSix=0;
-int squareSeven=0;
-int squareEight=0;
-int squareNine=0;
+boolean squareOne=false;
+boolean squareTwo=false;
+boolean squareThree=false;
+boolean squareFour=false;
+boolean squareFive=false;
+boolean squareSix=false;
+boolean squareSeven=false;
+boolean squareEight=false;
+boolean squareNine=false;
 
 
 PImage image;
