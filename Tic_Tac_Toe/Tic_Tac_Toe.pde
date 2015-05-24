@@ -13,17 +13,18 @@ boolean seven = false; //Create a variable for player X's Square 7
 boolean eight = false;//Create a variable for player X's Square 8  
 boolean nine = false; //Create a variable for player X's Square 9  
 
-boolean oneO=false;
-boolean twoO=false;
-boolean threeO=false; 
-boolean fourO= false; 
-boolean fiveO= false; 
-boolean sixO= false; 
-boolean sevenO = false; 
-boolean eightO = false; 
-boolean nineO = false; 
+boolean oneO=false; //Create a variable for player O's Square 1  
+boolean twoO=false; //Create a variable for player O's Square 1  
+boolean threeO=false; //Create a variable for player O's Square 1   
+boolean fourO= false; //Create a variable for player O's Square 1   
+boolean fiveO= false; //Create a variable for player O's Square 1   
+boolean sixO= false; //Create a variable for player O's Square 1  
+boolean sevenO = false; //Create a variable for player O's Square 1  
+boolean eightO = false; //Create a variable for player O's Square 1  
+boolean nineO = false; //Create a variable for player O's Square 1  
 
-boolean squareOne=false;
+//creates a variable to check for what squares have been played
+boolean squareOne=false; 
 boolean squareTwo=false;
 boolean squareThree=false;
 boolean squareFour=false;
@@ -34,14 +35,15 @@ boolean squareEight=false;
 boolean squareNine=false;
 
 
-PImage image;
-PImage imageO;
+PImage imageX; //variable for x image
+PImage imageO; //variable for o image
 
 void setup() {
   size(900, 900); 
-  image = loadImage("delete.png");
-  imageO = loadImage("opera.png");
+  imageX = loadImage("delete.png"); //loads X image 
+  imageO = loadImage("opera.png"); //loads O image
   background(255); 
+  //creates board
   fill(200);
   rect(150, 100, 200, 200);
   rect(150, 300, 200, 200);

@@ -1,87 +1,86 @@
 void draw() {
 
-
-  if (keyPressed&&mousePressed&&key== 'a') {
+  //For player X to play Square 1  
+  if (keyPressed&&mousePressed&&key== 'a') { 
 
     if (mouseX >= 150 && mouseX <= 350 && mouseY >=100 && mouseY<=300 && squareOne == false) {
-      one = true;
-      image(image, 219, 166);
-      squareOne = true;
+      one = true; 
+      image(imageX, 219, 166);//draw X shape
+      squareOne = true; //square 1 now occupied
     }
   }
-
+  //For player X to play Square 2
   if (keyPressed&&mousePressed&&key== 'a') {
 
     if (mouseX >= 150 && mouseX <= 350 && mouseY >=300 && mouseY<=500 && squareTwo == false) {
       two = true;
-      image(image, 219, 366);
-      squareTwo = true;
+      image(imageX, 219, 366);
+      squareTwo = true; //square 2 now occupied
     }
   }
-
+  //For player X to play Square 3 
   if (keyPressed&&mousePressed&&key== 'a') {
     if (mouseX >= 150 && mouseX <= 350 && mouseY >=500 && mouseY<=800 && squareThree == false) {
       three = true;
-      image(image, 219, 566);
-      squareThree = true;
+      image(imageX, 219, 566); //draw X shape
+      squareThree = true;//square 3 now occupied
     }
   }
-
+  //For player X to play Square 4 
   if (keyPressed&&mousePressed&&key== 'a') {
     if (mouseX >= 350 && mouseX <= 550 && mouseY >=100 && mouseY<=300 && squareFour == false) {
       four= true;
-      image(image, 419, 166);
-      squareFour = true;
+      image(imageX, 419, 166);//draw X shape
+      squareFour = true;//square 4 now occupied
     }
   }
-
+  //For player X to play Square 5 
   if (keyPressed&&mousePressed&&key== 'a') {
     if (mouseX >= 350 && mouseX <= 550 && mouseY >=300 && mouseY<=500 && squareFive == false) {
       five= true;
-      image(image, 419, 366);
-      squareFive = true;
+      image(imageX, 419, 366); //draw X shape
+      squareFive = true;//square 5 now occupied
     }
   }
-
+  //For player X to play Square 6 
   if (keyPressed&&mousePressed&&key== 'a') {
     if (mouseX >= 350 && mouseX <= 550 && mouseY >500 && mouseY<=800 &&  squareSix == false) {
       six= true;
-      image(image, 419, 566);
-      squareSix = true;
+      image(imageX, 419, 566); //draw X shape
+      squareSix = true;//square 6 now occupied
     }
   }
-
+  //For player X to play Square 7 
   if (keyPressed&&mousePressed&&key== 'a') {
     if (mouseX >= 550 && mouseX <= 750 && mouseY >=100 && mouseY<=300 && squareSeven == false) {
       seven= true;
-      image(image, 619, 166);
-      squareSeven = true;
+      image(imageX, 619, 166);//draw X shape
+      squareSeven = true;//square 7 now occupied
     }
   }
 
-
+  //For player X to play Square 8 
   if (keyPressed&&mousePressed&&key== 'a') {
 
     if (mouseX >= 550 && mouseX <= 750 && mouseY >=300 && mouseY<=500 && squareEight == false) {
       eight = true;
-      image(image, 619, 366);
-      squareEight = true;
+      image(imageX, 619, 366);//draw X shape
+      squareEight = true;//square 8 now occupied
     }
   }
+  //For player X to play Square 9 
   if (keyPressed&&mousePressed&&key== 'a') {
 
     if (mouseX >= 550 && mouseX <= 750 && mouseY >=500 && mouseY<=800 &&  squareNine == false) {
       nine = true;
-      image(image, 619, 566);
-      squareNine = true;
+      image(imageX, 619, 566);//draw X shape
+      squareNine = true;//square 9 now occupied
     }
   }
 
 
 
-
-
-
+  //Player O (all comments from player X apply to Player O)
 
   if (keyPressed&&mousePressed&&key== 'd') {
 
@@ -165,10 +164,14 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+
+    //draws reset button
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
+
+    //When mouse is clicked on the button it resets the game
     if (mousePressed) {
       if (mouseX<=650 && mouseX>=250 && mouseY<=250 && mouseY>=120) {
         setup(); 
@@ -207,7 +210,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -249,7 +252,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -291,7 +294,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -333,7 +336,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -375,7 +378,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -417,7 +420,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -459,7 +462,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -498,13 +501,13 @@ void draw() {
     }
   }
 
-  //Player O
 
+  //Player O 
   if (fiveO && oneO && nineO == true) {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -546,7 +549,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -588,7 +591,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -630,7 +633,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -672,7 +675,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -714,7 +717,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -756,7 +759,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -798,7 +801,7 @@ void draw() {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
-      fill(50, 50, 255);
+    fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
     text("Reset", 400, 200);
@@ -838,12 +841,13 @@ void draw() {
   }
 
 
-
+  //If game is a draw (all squares have been played) 
   if (squareOne == true && squareTwo==true&& squareThree==true&&squareFour==true&&squareFive==true&&squareSix==true&&squareSeven==true&&squareEight==true&&squareNine==true) {
     fill(255, 0, 0);
     textSize(40);
     text("Game Over", 350, 75);
 
+    //reset game
     fill(50, 50, 255);
     rect(250, 120, 400, 130);
     fill(255, 0, 0);
